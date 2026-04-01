@@ -1,3 +1,15 @@
+/* Pontos à esquerda dos itens do menu direito */
+.nav-right .nav-right-list {
+    list-style-type: disc;
+    padding-left: 1.5em;
+    display: block;
+}
+
+.nav-right .nav-right-list li {
+    display: list-item;
+    list-style-position: outside;
+    margin-bottom: 0.5em;
+}
 /* Reset CSS */
 * {
     margin: 0;
@@ -12,3 +24,23 @@ body {
 }
 
 /* Configuração inicial */
+
+/* Exibir pontos à esquerda dos itens do menu central */
+
+.nav-center .nav-list {
+    list-style-type: disc;
+    padding-left: 1.5em;
+    display: block;
+}
+
+.nav-center .nav-list li {
+    display: list-item;
+    list-style-position: outside;
+    margin-bottom: 0.5em;
+}
+
+.nav-center .nav-list li {
+    /* Garante que os pontos apareçam */
+    display: list-item;
+    list-style-position: outside;
+}
