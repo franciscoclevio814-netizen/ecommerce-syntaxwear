@@ -1,6 +1,7 @@
 /* base.css - Estilos base para o projeto ecommerce-syntaxwear */
 body {
-  font-family: var(--font-principal);
+  font-family: (--font-principal);
+  
     background-color: #ffffff;
     color: #333333;
 
