@@ -1,2 +1,26 @@
 /* Header Component */
+.header {
+  background-color: aqua;  
+  position: fixed;
+  text-align: center;
+  top: 20;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 40px);
+  border-radius: 15px;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 28px;
+  
+}
 
+.logo a img{
+  height: 40px;
+}
+ .nav-center ul{
+  display: flex;
+  gap: 2.5rem;
+
+ }
