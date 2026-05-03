@@ -2,25 +2,40 @@
 .header {
   background-color: aqua;  
   position: fixed;
-  text-align: center;
   top: 20;
   left: 50%;
   transform: translateX(-50%);
-  width: calc(100% - 40px);
+  width: 90%;
   border-radius: 15px;
   z-index: 999;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 28px;
-  
+  align-items: center;
 }
 
 .logo a img{
   height: 40px;
 }
- .nav-center ul{
+ .nav-center ul,
+ .nav-right ul {
+  list-style: none;
   display: flex;
   gap: 2.5rem;
+  
 
  }
+ .nav-right img{
+  height: 20px;
+ }
+ .nav-center a,
+  .nav-right a{
+    text-decoration: none;
+    font-size: 1.25rem;
+  }
+ .nav-center a:hover,
+ .nav-right a:hover{
+  color: #7c3aed;
+ } 
+ 
